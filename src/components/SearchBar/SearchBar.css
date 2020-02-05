@@ -7,15 +7,24 @@
   background: #ffffff;
 }
 .search-form {
-  width: 150px;
   font-size: 14px;
+  width: 25%;
 }
 .search-form input {
   text-align: center;
   color: #262626;
+  width: 100%;
 }
 .image-wrapper {
   height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  
+}
+
+.insta-text {
+  width: 130px;
 }
 
 .logo-image {

@@ -17,14 +17,15 @@ const App = () => {
   const initialState = dummydata;
   const [dumbData] = useState(initialState);
 
+  console.log('DUMB: ', dumbData)
   return (
     <div className="App">
       {/* Add components here  and pass props where appropriate */}
       <SearchBar  />
-      <PostsPage 
+      <PostsPage
         post={dumbData}
-        likes={dumbData.likes} 
-        comments={dumbData.comments} 
+        // likes={dumbData.likes} 
+        // comments={dumbData.comments}
       />
     </div>
   );
