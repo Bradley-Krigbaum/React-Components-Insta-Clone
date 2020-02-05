@@ -50,4 +50,3 @@ Your posts should look something like this:
 - [ ]  Finish styling all of the application and get your instagram clone to closely resemble the given design spec.
 
 
-
